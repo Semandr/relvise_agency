@@ -153,6 +153,8 @@ body {
 }
 .page__subscribe {
 }
+.page__getintouch {
+}
 /*--------------ПОДВАЛ-------------------------------------------*/
 .footer {
 }
@@ -748,4 +750,105 @@ body {
 .subscribe__button:hover {
   background-color: #c75629;
   cursor: pointer;
+}
+
+/*-------------GET-IN-TOUCH_BLOCK----------------------------*/
+
+.getintouch {
+  background-color: #f3f3f3;
+}
+.getintouch__container {
+  padding: 80px 0 135px 0;
+}
+@media (max-width: 500px) {
+  .getintouch__container {
+    padding: 40px 0 55px 0;
+  }
+}
+.getintouch__body {
+}
+.getintouch__header {
+  margin: 0 0 80px 0;
+}
+@media (min-width: 850px) {
+  .getintouch__items {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 650px) {
+  .getintouch__header {
+    margin: 0 0 40px 0;
+    padding: 0 15px;
+  }
+}
+.getintouch__item {
+  flex: 0 1 33.33%;
+}
+.item-getintouch {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+}
+.item-getintouch_active {
+  color: #fff;
+  padding: 80px 15px;
+
+  background: #252b42;
+}
+.item-getintouch > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+.item-getintouch__icon {
+  margin-bottom: 15px;
+}
+.item-getintouch__emails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item-getintouch__email {
+  color: inherit;
+  font-weight: 600;
+  line-height: 150%;
+}
+.item-getintouch__email:hover {
+  text-decoration: underline;
+}
+.item-getintouch__label {
+  color: #252b42;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.item-getintouch__label_active {
+  color: #fff;
+  background: #252b42;
+}
+.item-getintouch__button {
+  border: 1px solid #ff7b47;
+  min-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color: #ff7b47;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  padding: 10px 20px;
+}
+.item-getintouch__button_active {
+  color: #fff;
+  background: #252b42;
+  border-color: #fff;
+}
+.item-getintouch__button:hover {
+  text-decoration: underline;
 }
