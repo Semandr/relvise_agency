@@ -155,6 +155,8 @@ body {
 }
 .page__getintouch {
 }
+.page__contact {
+}
 /*--------------ПОДВАЛ-------------------------------------------*/
 .footer {
 }
@@ -851,4 +853,60 @@ body {
 }
 .item-getintouch__button:hover {
   text-decoration: underline;
+}
+
+/*-------------CONTACT_BLOCK---------------------------------*/
+
+.contact {
+  padding: 42px 0;
+}
+.contact__container {
+}
+.contact__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .contact__body {
+    flex-direction: column;
+  }
+}
+.contact__content {
+  padding: 0 20px 0 0;
+}
+@media (max-width: 768px) {
+  .contact__content {
+    padding: 0 0 20px 0;
+  }
+}
+.contact__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+}
+.contact__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+.contact__text {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 142%;
+  color: #737373;
+}
+.contact__button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2px;
+  justify-content: center;
+  padding: 15px 40px;
+  background-color: #ff7b47;
+  color: #fff;
+  border-radius: 5px;
+  min-height: 58px;
+  transition: all 0.3s ease 0s;
+}
+.contact__button:hover {
+  background-color: #c75629;
 }
